@@ -139,6 +139,13 @@
   font-weight: 700;
   font-size: 8rem;
 }
+
+.layout-header {
+  background-color: var(--white-color);
+  width: 100%;
+  display: flex;
+}
+
 .layout {
   width: 100%;
   display: flex;
