@@ -17,3 +17,38 @@ html {
 body {
   margin: 0;
 }
+@media only screen and (max-width: 46.1875em) {
+  .body-bottom {
+    display: block;
+  }
+  .layout-header {
+    display: block;
+  }
+  .top-foot,
+  .body-header {
+    padding: 10%;
+  }
+  .recent {
+    display: none;
+  }
+  .header-bottom,
+  .header-bottom-foot {
+    justify-content: space-between;
+  }
+
+  .contact,
+  .slogan {
+    width: 35%;
+  }
+
+  .name {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+  .detail {
+    font-size: 7rem;
+  }
+  .menu {
+    padding: 0 15%;
+  }
+}
