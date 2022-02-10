@@ -27,16 +27,18 @@
 }
 
 .header-tool {
-  padding: 10px;
   border-bottom: 1px solid var(--black-color);
+  display: flex;
+  align-items: center;
 }
 
 .header-tool h3 {
-  font-size: 2rem;
-  padding: 0;
-  margin: auto 0;
+  font-size: 1.5rem;
   font-weight: 900;
   color: var(--black-color);
+  height: 100%;
+  margin: auto 0;
+  align-items: center;
   line-height: 100%;
 }
 
@@ -353,7 +355,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  display: none;
+  display: block;
 }
 
 .modal-container {
@@ -367,5 +369,13 @@
   height: 400px;
   width: 400px;
   margin: auto;
-  border-radius: 5px;
+  padding: 20px;
+}
+.modal-icon {
+  height: 100px;
+  width: 100px;
+
+  color: var(--black-color);
+  display: block;
+  font-size: 1.5rem;
 }
