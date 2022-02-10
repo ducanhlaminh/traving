@@ -1,6 +1,6 @@
 .header {
   height: 800px;
-  background-image: url(..contact/img/hill-5419527.jpg);
+  background-image: url(../img/hill-5419527.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -353,7 +353,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  display: block;
+  display: none;
 }
 
 .modal-container {
