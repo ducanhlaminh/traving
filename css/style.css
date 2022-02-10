@@ -1,6 +1,6 @@
 .header {
   height: 800px;
-  background-image: url(https://cdn.pixabay.com/photo/2022/01/18/23/31/farm-6948514_960_720.jpg);
+  background-image: url(/img/hill-5419527.jpg);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -343,4 +343,29 @@
 .end {
   margin-top: 80px;
   text-align: center;
+}
+
+/* modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+
+.modal-container {
+  background-color: #28282849;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.modal-content {
+  background-color: var(--white-color);
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  border-radius: 5px;
 }
