@@ -51,4 +51,7 @@ body {
   .menu {
     padding: 0 15%;
   }
+  .modal-content {
+    width: 250px;
+  }
 }

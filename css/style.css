@@ -355,7 +355,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  display: block;
+  display: none;
 }
 
 .modal-container {
@@ -363,19 +363,79 @@
   height: 100%;
   width: 100%;
   display: flex;
+  z-index: 1;
 }
+
 .modal-content {
   background-color: var(--white-color);
-  height: 400px;
+  position: relative;
   width: 400px;
   margin: auto;
   padding: 20px;
+  border-radius: 3px;
+  z-index: 2;
 }
 .modal-icon {
   height: 100px;
-  width: 100px;
-
-  color: var(--black-color);
+  width: 100%;
+  text-align: center;
+  color: #f82254;
   display: block;
-  font-size: 1.5rem;
+  font-size: 6rem;
+}
+.modal-icon h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+.modal-body h4 {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+.btn-paypal img {
+  height: 35px;
+}
+.btn-paypal {
+  height: 35px;
+  background-color: #ffc33a;
+  border-radius: 3px;
+  text-align: center;
+}
+.btn-paypal,
+.btn-comfirm:hover {
+  background-color: #fab81d;
+  cursor: pointer;
+}
+.mail,
+.card-num {
+  height: 25px;
+  width: 100%;
+}
+.expiration-date,
+.brand-bank img,
+.brand-bank {
+  display: flex;
+  height: 25px;
+}
+.date {
+  width: 50%;
+  margin-right: 30px;
+}
+.btn-comfirm {
+  margin-top: 10px;
+  height: 35px;
+  width: 100%;
+  background-color: #ffc33a;
+  border-radius: 3px;
+  border: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.skip {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.skip a {
+  color: var(--text-color);
 }
