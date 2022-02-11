@@ -37,7 +37,7 @@
   font-weight: 900;
   color: var(--black-color);
   height: 100%;
-  margin: auto 0;
+  margin: auto 5px;
   align-items: center;
   line-height: 100%;
 }
@@ -53,11 +53,19 @@
   position: relative;
   overflow: auto;
 }
-
+.search {
+  width: 40%;
+  display: flex;
+}
+.input-search {
+  width: 100%;
+  font-size: 1.1rem;
+  display: none;
+}
 .btn-donate {
   margin: auto 0;
   height: 29px;
-  width: 80px;
+  width: 100px;
 }
 
 .donate {
@@ -66,6 +74,15 @@
 }
 
 .icon {
+  font-size: 1.5rem;
+  color: #000;
+  margin: auto;
+}
+
+.search:hover {
+  background-color: #f1f1f1;
+}
+.icon-list {
   margin: auto 0 auto auto;
   font-size: 1.5rem;
   margin: auto 15px;
@@ -297,7 +314,6 @@
   bottom: -50px;
   left: 50%;
   transform: translate(-50%, -50%);
-  position: relative;
 }
 .header-tool-foot h3 {
   padding: 50px 0;
