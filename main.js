@@ -8,9 +8,7 @@ donate.onclick = function(){
 outModal2.onclick = function(){
     document.querySelector(".modal").style.display ='none';
 }
-outModal.onclick = function(){
-    document.querySelector(".modal").style.display ='none';
-}
+
 search.onclick = function(){
     document.querySelector(".input-search").style.display ='block';
 }
