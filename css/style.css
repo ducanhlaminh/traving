@@ -19,7 +19,24 @@
   width: 33.34%;
   transition: 2s;
 }
-
+.img-1 {
+  background-image: url(../img/agriculture-3732476.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-2 {
+  background-image: url(../img/beach-666122.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-3 {
+  background-image: url(../img/travel-6802492.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .slides input {
   display: none;
 }
