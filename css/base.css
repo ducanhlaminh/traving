@@ -8,11 +8,11 @@
   box-sizing: inherit;
 }
 @font-face {
-  src: url(/0226-LNTH-Daybreaker.ttf);
+  src: url(../0226-LNTH-Daybreaker.ttf);
   font-family: logoFont;
 }
 @font-face {
-  src: url(/Geomanist-Light.otf);
+  src: url(../Geomanist-Light.otf);
   font-family: bodyFont;
 }
 html {
