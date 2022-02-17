@@ -100,19 +100,22 @@
   display: flex;
   align-items: center;
 }
+.header-tool-name {
+  margin: auto 0;
+}
 
-.header-tool h3 {
-  font-size: 1.5rem;
+.header-tool-name h3 {
+  font-size: 2rem;
   font-weight: 900;
   color: var(--black-color);
-  height: 100%;
-  margin: auto 5px;
   align-items: center;
-  line-height: 100%;
+  margin: auto;
+  font-family: logoFont;
 }
 
 .header-search {
   display: flex;
+  margin: auto 0;
 }
 
 .header-tool {
@@ -121,6 +124,7 @@
   justify-content: space-between;
   position: relative;
   overflow: auto;
+  padding: 0 5px;
 }
 .search {
   width: 40%;
@@ -166,7 +170,7 @@
   text-decoration: none;
   color: var(--text-color);
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: calc(100% / 5);
   text-align: center;
   display: flex;
@@ -192,11 +196,12 @@
 
 .slogan {
   width: 15%;
+  font-size: 1.1rem;
 }
 
 .contact {
   width: 15%;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   display: flex;
   margin: auto 0;
   justify-content: center;
@@ -222,11 +227,6 @@
   color: var(--white-color);
 }
 
-.title {
-  font-weight: 200;
-  display: block;
-}
-
 .detail {
   font-weight: 700;
   font-size: 8rem;
@@ -247,7 +247,7 @@
   display: block;
   height: 100%;
   display: flex;
-  padding: 20px;
+  padding: 40px;
 }
 .header-title {
   margin: auto;
@@ -255,17 +255,21 @@
 
 .layout-tour {
   display: block;
-  padding: 10%;
+  padding: 5%;
+  height: 580px;
+  background-color: #d6d0d0;
 }
 .header-detail {
   display: block;
   font-size: 1.5rem;
+  width: 80%;
 }
 .top.header-detail {
   font-size: 4rem;
   font-weight: 600;
   margin: 10px 0;
   line-height: 100%;
+  font-family: logoFont;
 }
 .more {
   border-bottom: 3px #3785fd solid;
@@ -277,16 +281,36 @@
 .more-2 {
   margin-top: 20px;
 }
+.pic-tour {
+  padding-top: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: visible;
+  background-size: 100%;
+}
 .pic {
   width: 100%;
 }
-
 .body-tour {
   background-color: #f1f1f1;
   width: 100%;
-  padding: 4%;
+  padding: 4% 0;
 }
-
+.pic1 {
+  background-image: url(/img/incense-sticks-6537296.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pic2 {
+  background-image: url(/img/pexels-leung-kwok-tung-ktleung-3054187.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.pic3 {
+  background-image: url(/img/pho-co-ha-noi-nemtv1.jpg);
+  background-size: cover;
+  background-position: center;
+}
 .body-header {
   margin: auto;
   width: 100%;
@@ -302,6 +326,7 @@
   margin: 0;
   line-height: 100%;
   margin-bottom: 20px;
+  text-shadow: 1.5px 1.5px var(--black-color);
 }
 .body-tour-text-bottom {
   font-size: 2rem;

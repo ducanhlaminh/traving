@@ -7,11 +7,17 @@
 * {
   box-sizing: inherit;
 }
-
+@font-face {
+  src: url(/0226-LNTH-Daybreaker.ttf);
+  font-family: logoFont;
+}
+@font-face {
+  src: url(/Geomanist-Light.otf);
+  font-family: bodyFont;
+}
 html {
   font-size: 62.5%;
-  line-height: 1.6rem;
-  font-family: "Lora", serif;
+  font-family: bodyFont;
   box-sizing: border-box;
 }
 body {
