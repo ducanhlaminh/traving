@@ -526,7 +526,7 @@ form {
   margin-bottom: 10px;
 }
 .back {
-  background: url(/img/mountains-6562436.jpg) no-repeat center;
+  background: url(../img/mountains-6562436.jpg) no-repeat center;
   padding-top: 50%;
   width: 50%;
   background-size: cover;
