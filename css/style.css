@@ -257,7 +257,14 @@
   display: block;
   padding: 5%;
   height: 580px;
-  background-color: #d6d0d0;
+  background-color: #d6d0d021;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.layout-tour:hover {
+  background-color: #6d69692d;
+  padding: 0;
+  transition: 0.5s ease-in;
 }
 .header-detail {
   display: block;
@@ -281,36 +288,16 @@
 .more-2 {
   margin-top: 20px;
 }
-.pic-tour {
-  padding-top: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: visible;
-  background-size: 100%;
-}
+
 .pic {
   width: 100%;
 }
 .body-tour {
-  background-color: #f1f1f1;
+  background: #28282817;
   width: 100%;
   padding: 4% 0;
 }
-.pic1 {
-  background-image: url(../img/incense-sticks-6537296.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.pic2 {
-  background-image: url(../img/pexels-leung-kwok-tung-ktleung-3054187.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.pic3 {
-  background-image: url(../img/pho-co-ha-noi-nemtv1.jpg);
-  background-size: cover;
-  background-position: center;
-}
+
 .body-header {
   margin: auto;
   width: 100%;
@@ -320,6 +307,8 @@
 
 .body-bottom {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .body-tour-text {
   font-size: 4rem;
